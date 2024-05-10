@@ -2,4 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Comic Neue", cursive;
+}
+
+:root {
+    --main-background: #0a0a0a;
+    --text-color: #d4d4d4;
+    --nav-background: #030712;
+}
+
+body {
+    background: var(--main-background);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: var(--nav-background);
 }
